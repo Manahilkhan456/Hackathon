@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+  background-image: url(download.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+       text-decoration: none;
+       color: white;
+       text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+  background-image: url(mountains-morning-snow-rock-mountain-landscape\ \(1\).png);
+
+    /*
+     background-image: linear-gradient(rgba(238, 204, 204, 0.75),rgba(172, 160, 160, 0.75)), url(download.jpeg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+       text-decoration: none;
+       color: white;
+       text-transform: uppercase;
+
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+    
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    font-size: large;
+    margin-top: 80px;
+
+}
+
+.content p{
+      margin: 20px auto;
+      font-weight: 100;
+      line-height: 25px;
+
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid  rgb(119, 6, 224);
+    background-color: transparent;
+    color: rgb(32, 32, 32);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background-color: rgb(252, 251, 251);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+    
+}
+
+button:hover{
+    border: none;
+}
+
+
+ @media only screen and (max-width:768 ) {
+    
+    .navbar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar ul li{
+        margin: 10px 0;
+        display: block;
+    }
+    
+    .navbar ul li a{
+       
+
+    }
+    .banner{
+        width: 70%;
+        height: 70vh;
+        float: left; */
+    } 
+    .nav ul li a{
+        display: block;
+        text-decoration: none;
+       color: rgb(224, 30, 30);
+       text-transform: uppercase;
+
+}
+
+@media only screen and (min-width:432 )
+.navbar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar ul li{
+        margin: 10px 0;
+        display: block;
+    }
+    
+    .navbar ul li a{
+       justify-items: center;
+       flex-direction: column;
+       color: blue;       
+}
+.navbar navbar-expand-lg
+
+ 
